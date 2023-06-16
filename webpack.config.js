@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const WebpackBar = require('webpackbar')
 const path = require('path')
 module.exports={
+    entry:'./src/index.js',
     stats: "minimal",
     resolve:{
         alias:{
