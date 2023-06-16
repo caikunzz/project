@@ -4,8 +4,6 @@ import {a} from "@/script/app";
 import "@/style/index.less";
 import "@/index.css";
 console.log(a);
-console.log(a);
-console.log(a);
 jQuery(function(){
     console.log(123);
 });
