@@ -48,7 +48,7 @@ module.exports={
     },
 
     devServer:{
-        static:'./dist',
+        static:path.resolve(__dirname,'./dist'),
         open:true,
         // 配置前端请求代理
         proxy:{
