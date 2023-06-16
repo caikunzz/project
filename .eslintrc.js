@@ -6,7 +6,6 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-    'plugin:import/recommend',
     'plugin:vue/vue3-essential',
   ],
   parserOptions: {
@@ -17,5 +16,8 @@ module.exports = {
     'vue',
   ],
   rules: {
+    "no-console":'off',
+    "quotes": ["error", "single"],
+    "jsx-quotes": "off"
   },
 };
