@@ -5,6 +5,7 @@ import './styles/index.css'
 
 jQuery(function(){
     console.log(12345)
+    console.log(456)
 })
 
 // jQuery.ajax({
