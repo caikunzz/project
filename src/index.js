@@ -7,6 +7,7 @@ jQuery(function(){
     console.log(12345)
     console.log(456)
     console.log(456)
+    console.log(456)
 })
 
 // jQuery.ajax({
