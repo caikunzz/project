@@ -24,7 +24,7 @@ module.exports={
     plugins:[
         new HtmlWebpackPlugin({
             template:"./public/index.html",
-            filename:"app.html",
+            filename:"main.html",
             script:['https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.core.js','https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js'],
             inject:"head"
         }),
