@@ -30,7 +30,7 @@ module.exports={
         }),
         new MiniCssExtractPlugin({
             // filename:'styles/app.css'//新生成的文件目录和名称
-            filename:'styles/[contenthash:8].css'//根据内容生成的名字
+            filename:'[contenthash:8].css'//根据内容生成的名字
           }),
         new WebpackBar({
             fancy:true,
