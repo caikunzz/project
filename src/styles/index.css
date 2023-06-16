@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+html{
+  width: 100vw;
+  height: 100vh;
+  background: greenyellow;
+  color: #fff;
+  font-size: 50px;
+  text-align: center
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
